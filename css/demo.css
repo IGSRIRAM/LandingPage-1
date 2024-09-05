@@ -1,0 +1,190 @@
+body{
+    overflow-x: hidden;
+}
+.carousel-item{
+    background-color: black;
+    height: 45vw;
+}
+.discover{
+    height: 22vw;
+}
+.col-sm-4{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d1{
+    background-image: url("../New folder/h1-banner1.jpg"); 
+ 
+}
+.d2{
+    background-image: url("../New folder/wallhaven-r2go7w\ \(Custom\).jpg");
+}
+.d3{
+    background-image: url("../New folder/blog01-820x580.jpg");
+}
+.features{
+    margin-top: 4.5vw;
+    margin-bottom:4.5vw;
+    text-align: center;
+}
+.features h5{
+    font-size: 1.2vw;
+    color: #ff6600;
+}
+.features h1{
+    font-size: 2.3vw;
+    color: #000000;
+}
+.cll{
+    padding: 1vw 8vw 1vw 8vw ;
+}
+.cl{
+    padding: 0vw 4vw 0vw 4vw; 
+}
+.cl1{
+    border-right:1px solid #565252;
+    border-left: 1px solid #565252 ;
+}
+.cl h1{
+    color: #171717;
+    font-size: 1.8vw;
+}
+.cl p{
+    font-size: 0.8vw;
+}
+.cll img{
+    height: 10vw;
+    width: 10vw;
+
+}
+.bikes_accessoris{
+    width: 100%;
+    position: relative;
+}
+.accessoris_11 img{
+    transition: all .4s;
+}
+.accessoris_11 img:hover{
+    transform: translateX(-8px );  
+}
+.accessoris_11 {
+   z-index: 1;
+}
+.accessoris_12 img{
+    transition: all .4s;
+}
+.accessoris_12 img:hover{
+    transform: translateX(-8px );   
+    z-index: 0;
+}
+.accessoris_2{
+    position: absolute;
+    top: 0;
+    margin:3vw; 
+}
+.accessoris_2 h1{
+    font-size: 2.3vw;
+}
+.accessoris_2 p{
+    font-size: 1vw;
+}
+.accessoris_2 button{
+    font-size: 0.8vw;
+    color: #000000;
+    border: 3px solid #ff6600;
+    border-radius: 10px;
+    padding: 0.3vw 0.8vw 0.4vw 0.8vw;
+}
+.accessoris_2 button:hover{
+    font-size: 0.8vw;
+    color: #ffffff;
+    background-color: #ff6600;
+    padding: 0.4vw 0.8vw 0.5vw 0.8vw;
+}
+.service-repair{
+    height: 36vw;
+    background-color: #171717;
+}
+.service img{
+    height: 36vw;
+  
+}
+.featured_products{
+    background-image: url("../New folder/wallhaven-yjk57y.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35vw;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.featured_products img {
+    width: 15%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    filter: grayscale(70%);
+    position:relative;
+}
+.featured_products img:hover{
+    width: 35%;
+    border: 2px solid #ff6600;
+    filter: grayscale(0%);   
+}
+.brands{
+    background: #ff6600;
+    height: 17vw;
+    padding: 1vw;
+}
+.brands img{
+    mix-blend-mode: screen;  
+}
+.brands1{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.news{
+    height: auto;
+
+}
+.sub{
+    display: flex;
+    flex-wrap:wrap;
+    padding-left: 8.5vw;
+}
+.child {
+    position: relative;
+}
+.child img{
+    height: 21vw;
+    width:14.8vw;
+    margin: 1.08vw;
+    background-repeat: no-repeat;
+    border-radius: 2vw;
+    box-shadow: 10px 10px 20px#babecc,-10px -10px 20px #565252;  
+  
+}
+.matter{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 14.8vw;
+    padding: 0.5vw;
+    border-radius: 0vw 0vw 2vw 2vw;
+    height: 6vw;
+    color: #ffffff;
+    font-size: 1vw;
+    margin:0px 0px 1.08vw 1.08vw;
+}
+.matter i{
+    margin-left: 12.5vw;
+}
